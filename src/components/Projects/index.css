@@ -1,0 +1,73 @@
+.select-element {
+  width: 40%;
+  height: 8vh;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  border-radius: 10px;
+}
+
+.options {
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.list-items {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 40vh;
+  width: 70vh;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.retry-button {
+  background-color: #328af2;
+  height: 6vh;
+  width: 12vh;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+}

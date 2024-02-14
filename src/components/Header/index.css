@@ -1,0 +1,14 @@
+.website-logo {
+  height: 8vh;
+  width: 20vh;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-color: #f1f5f9;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
